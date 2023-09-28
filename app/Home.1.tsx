@@ -1,3 +1,4 @@
+import GDSCOpportunities from "./components/gdsc_opportunities";
 import Header from "./components/header";
 
 export default function Home() {
