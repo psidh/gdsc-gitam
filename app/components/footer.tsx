@@ -38,9 +38,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="space-y-8 flex-col ">
+      <div className="space-y-8">
         <hr className="w-full border-t border-black" />
-        <div className="flex text-sm justify-between items-center">
+        <div className="flex-col md:flex-row flex text-sm justify-between items-center">
           <div className="flex gap-x-6">
             <p>© 2023 Google Developer Student Clubs. All rights reserved.</p>
             <a>Privacy Policy</a>
@@ -48,7 +48,7 @@ export default function Footer() {
             <a>Cookies Settings</a>
           </div>
 
-          <div className="flex gap-x-3">
+          <div className="flex gap-x-3 max-sm:mt-10">
             <Facebook className="h-6" />
             <Instagram className="h-6" />
             <X className="h-6" />

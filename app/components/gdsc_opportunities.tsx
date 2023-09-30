@@ -29,7 +29,7 @@ export default function GDSCOpportunities() {
             </p>
           </section>
         </div>
-        <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row">
+        <div className="mt-8 sm:mt-10 flex ">
           <button className="w-full sm:w-auto px-6 py-3 border border-[#4466B2] rounded-lg text-[#4466B2] mb-2 sm:mb-0 sm:mr-4">
             Learn More
           </button>
