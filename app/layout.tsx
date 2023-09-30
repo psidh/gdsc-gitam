@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Menu } from "react-feather";
-
+import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="pl-5 pr-3 lg:px-12 py-4 flex justify-between items-center">
+        <nav className="p-4 lg:px-12 py-4 flex justify-between items-center">
           <img src="/images/gdsc-logo.png" className="lg:w-1/5 w-[66%]" />
           <div className="gap-x-8 lg:flex hidden">
             <a>About GDSC</a>
@@ -26,7 +26,8 @@ export default function RootLayout({
             <a>Resources</a>
             <a>More</a>
           </div>
-          <button className="bg-[#5383EC] text-sm lg:text-base font-normal py-2 px-5 rounded-lg text-white">
+          <button className="bg-[#5383EC] text-sm 
+          lg:text-base font-normal py-2 px-5 rounded-lg text-white">
             Join
           </button>
           <Menu className="lg:hidden" />

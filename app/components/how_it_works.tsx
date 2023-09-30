@@ -6,7 +6,7 @@ export default function HowItWorks() {
       <h2 className="text-4xl text-center font-bold">
         Discover Exciting Events, Projects, and Community Interactions
       </h2>
-      <div className="flex gap-x-16 mt-20">
+      <div className="md:grid md:grid-cols-3 flex-col flex  gap-x-16 mt-20">
         <section className="flex items-center flex-col text-center">
           <Codesandbox />
           <h3 className="font-medium mt-6">
@@ -17,7 +17,7 @@ export default function HowItWorks() {
             to attend inspiring events, collaborate on exciting projects, and
             connect with like-minded individuals in the tech community.
           </p>
-          <button className="mt-6 flex gap-x-2">
+          <button className="my-6 flex gap-x-2">
             Join <Codesandbox className="w-4" />
           </button>
         </section>
@@ -31,7 +31,7 @@ export default function HowItWorks() {
             to attend inspiring events, collaborate on exciting projects, and
             connect with like-minded individuals in the tech community.
           </p>
-          <button className="mt-6 flex gap-x-2">
+          <button className="my-6 flex gap-x-2">
             Join <Codesandbox className="w-4" />
           </button>
         </section>
@@ -45,7 +45,7 @@ export default function HowItWorks() {
             to attend inspiring events, collaborate on exciting projects, and
             connect with like-minded individuals in the tech community.
           </p>
-          <button className="mt-6 flex gap-x-2">
+          <button className="my-6 flex gap-x-2">
             Join <Codesandbox className="w-4" />
           </button>
         </section>
